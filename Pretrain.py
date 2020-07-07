@@ -4,8 +4,6 @@ from __future__ import print_function
 import torch
 import torch.nn as nn
 
-
-import torch
 from copy import deepcopy
 model = torch.hub.load('pytorch/vision:v0.6.0', 'deeplabv3_resnet101', pretrained=True)
 model.eval()
